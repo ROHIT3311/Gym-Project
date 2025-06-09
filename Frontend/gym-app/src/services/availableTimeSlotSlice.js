@@ -17,6 +17,7 @@ export const fetchAvailableTimeSlot = createAsyncThunk(
     }
   }
 );
+
 const availableTimeSlotSlice = createSlice({
   name: "availableTimeSlots",
   initialState: {
